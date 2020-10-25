@@ -1,0 +1,9 @@
+#!/bin/bash
+#You can run this bash file by running 'bash automation' on commandline
+for file in ./original_objects/*.py;
+do
+    python3.6 $file -ry True -a 0
+    python3.6 $file -ry True -a 45
+    python3.6 $file -ry True -a 135
+    python3.6 $file -ry True -a 180     
+done

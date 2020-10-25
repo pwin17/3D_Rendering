@@ -3,7 +3,6 @@ in commandline, you can use the following options of argpase to generate 3D mode
 e.g., python3.6 obj13.py -ry True -a 45
 
 '''
-
 import argparse
 parser = argparse.ArgumentParser(description='Options to edit rotations axis, and rotation angle')
 parser.add_argument('-rx', type=bool, required=False, default=False, help='Enter True if you want to rotate in x-axis, False if not.')
@@ -27,7 +26,7 @@ if args.ry:
 if args.rz:
     rotation.z = 1
 
-box0 = box(pos=vector(0,0,0), size=box_size)#, axis=vector(50,0,0))
+box0 = box(pos=vector(0,0,0), size=box_size)
 box1 = box(pos=vec(1,0,0), size=box_size)
 box2 = box(pos=vector(-1,0,0), size=box_size)
 box3 = box(pos=vector(-1,1,0), size=box_size)
@@ -39,3 +38,4 @@ obj13 = compound([box0,box1,box2,box3,box4,box5,box6,box7], pos = vector(0,0,0))
 
 obj13.rotate(angle, axis= rotation, origin= vector(0,0,0))
 
+scene.capture("sample13_"+str(angle))
