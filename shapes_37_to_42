@@ -1,0 +1,79 @@
+GlowScript 3.0 VPython
+from visual import *
+# Shape 37
+box1 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box2 = box(pos=vector(1, 1, 1), size=vector(0.99, 0.99, 0.99))
+box3 = box(pos=vector(2, 1, 1), size=vector(0.99, 0.99, 0.99))
+box4 = box(pos=vector(0, 0, 1), size=vector(0.99, 0.99, 0.99))
+box5 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box6 = box(pos=vector(0, -1, 1), size=vector(0.99, 0.99, 0.99))
+box7 = box(pos=vector(0, -2, 1), size=vector(0.99, 0.99, 0.99))
+box8 = box(pos=vector(-1, -2, 1), size=vector(0.99, 0.99, 0.99))
+box9 = box(pos=vector(-2, -2, 1), size=vector(0.99, 0.99, 0.99))
+box10 = box(pos=vector(-3, -2, 1), size=vector(0.99, 0.99, 0.99))
+box11 = box(pos=vector(-3,-2, 0), size=vector(0.99, 0.99, 0.99))
+box12 = box(pos=vector(-3,-2, -1), size=vector(0.99, 0.99, 0.99))
+
+#Shape 38
+box1 = box(pos=vector(0, 1, 3), size=vector(0.99, 0.99, 0.99))
+box2 = box(pos=vector(0, 1, 2), size=vector(0.99, 0.99, 0.99))
+box3 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box4 = box(pos=vector(0, 0, 1), size=vector(0.99, 0.99, 0.99))
+box5 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box6 = box(pos=vector(0, -1, 1), size=vector(0.99, 0.99, 0.99))
+box7 = box(pos=vector(0, -2, 1), size=vector(0.99, 0.99, 0.99))
+box8 = box(pos=vector(-1, -2, 1), size=vector(0.99, 0.99, 0.99))
+box9 = box(pos=vector(-2, -2, 1), size=vector(0.99, 0.99, 0.99))
+box10 = box(pos=vector(-2, -1, 1), size=vector(0.99, 0.99, 0.99))
+
+#Shape 39
+box1 = box(pos=vector(0, 1, 3), size=vector(0.99, 0.99, 0.99))
+box2 = box(pos=vector(0, 1, 2), size=vector(0.99, 0.99, 0.99))
+box3 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box4 = box(pos=vector(0, 0, 1), size=vector(0.99, 0.99, 0.99))
+box5 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box6 = box(pos=vector(0, -1, 1), size=vector(0.99, 0.99, 0.99))
+box7 = box(pos=vector(0, -2, 1), size=vector(0.99, 0.99, 0.99))
+box8 = box(pos=vector(-1, -2, 1), size=vector(0.99, 0.99, 0.99))
+box9 = box(pos=vector(-2, -2, 1), size=vector(0.99, 0.99, 0.99))
+box10 = box(pos=vector(-2, -2, 2), size=vector(0.99, 0.99, 0.99))
+
+#Shape 40
+box1 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box2 = box(pos=vector(0, 1, 2), size=vector(0.99, 0.99, 0.99))
+box3 = box(pos=vector(0, 1, 3), size=vector(0.99, 0.99, 0.99))
+box4 = box(pos=vector(0, 2, 3), size=vector(0.99, 0.99, 0.99))
+box5 = box(pos=vector(0, 0, 1), size=vector(0.99, 0.99, 0.99))
+box6 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box7 = box(pos=vector(0, -1, 1), size=vector(0.99, 0.99, 0.99))
+box8 = box(pos=vector(0, -2, 1), size=vector(0.99, 0.99, 0.99))
+box9 = box(pos=vector(-1, -2, 1), size=vector(0.99, 0.99, 0.99))
+box10 = box(pos=vector(-2, -2, 1), size=vector(0.99, 0.99, 0.99))
+
+
+#Shape 41
+box1 = box(pos=vector(0, 1, -1), size=vector(0.99, 0.99, 0.99))
+box2 = box(pos=vector(0, 1, 0), size=vector(0.99, 0.99, 0.99))
+box3 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box4 = box(pos=vector(0, 0, -1), size=vector(0.99, 0.99, 0.99))
+box5 = box(pos=vector(0, -1, -1), size=vector(0.99, 0.99, 0.99))
+box6 = box(pos=vector(0, -2, -1), size=vector(0.99, 0.99, 0.99))
+box7 = box(pos=vector(1, -2, -1), size=vector(0.99, 0.99, 0.99))
+box8 = box(pos=vector(2, -2, -1), size=vector(0.99, 0.99, 0.99))
+box9 = box(pos=vector(2, -1, -1), size=vector(0.99, 0.99, 0.99))
+box10 = box(pos=vector(2, 0, -1), size=vector(0.99, 0.99, 0.99))
+
+#Shape 42
+box1 = box(pos=vector(0, 1, 3), size=vector(0.99, 0.99, 0.99))
+box2 = box(pos=vector(0, 1, 2), size=vector(0.99, 0.99, 0.99))
+box3 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box4 = box(pos=vector(0, 0, 1), size=vector(0.99, 0.99, 0.99))
+box5 = box(pos=vector(0, 1, 1), size=vector(0.99, 0.99, 0.99))
+box6 = box(pos=vector(0, -1, 1), size=vector(0.99, 0.99, 0.99))
+box7 = box(pos=vector(0, -2, 1), size=vector(0.99, 0.99, 0.99))
+box8 = box(pos=vector(-1, -2, 1), size=vector(0.99, 0.99, 0.99))
+box9 = box(pos=vector(-2, -2, 1), size=vector(0.99, 0.99, 0.99))
+box10 = box(pos=vector(-2, -2, 2), size=vector(0.99, 0.99, 0.99))
+box11 = box(pos=vector(-2, -2, 3), size=vector(0.99, 0.99, 0.99))
+
+
